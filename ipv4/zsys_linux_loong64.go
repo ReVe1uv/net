@@ -57,6 +57,11 @@ const (
 	sysSO_EE_ORIGIN_ICMP6        = 0x3
 	sysSO_EE_ORIGIN_TXSTATUS     = 0x4
 	sysSO_EE_ORIGIN_TIMESTAMPING = 0x4
+	
+	sizeofInetPktinfo = 0xc
+	sizeofICMPFilter = 0x4
+	sizeofGroupReq = 0x88
+	sizeofGroupSourceReq = 0x108
 )
 
 type kernelSockaddrStorage struct {
